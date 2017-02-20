@@ -1,0 +1,10 @@
+var info = { 
+     Title: "Information du bien", 
+     price: 0, 
+     surface: 0, 
+     pieces: 0, 
+     city: '', 
+     codePostal: '', 
+     type: "", 
+     prixM2: 0, 
+ }; 

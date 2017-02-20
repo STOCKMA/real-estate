@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <p>Welcome to
+        <%= message %>
+    </p>
+     <div class="jumbotron">
+        <h1>Hello, world!</h1>
+    </div>
+
+    <div class="container">
+        <form class="form-inline">
+                <div class="form-group">
+                    <label for="exampleInputName2">Name</label>
+                     <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+    </div>
+    <form action="/" method="GET">
+        <input type="text" name="urlLBC" />
+        <button type="submit">
+            OK
+        </button>
+        <h1>Comparateur de prix immobilier 
+ </h1> 
+     <p>Veuillez entrer le lien leboncoin de l'annonce :  
+     <form action="/" method="GET"> 
+      <input type="text" name="lienLBC"> 
+      <button type="submit">Comparer</button> 
+     </form> 
+     </p> 
+     <p>Prix du bien sur LeBonCoin :  
+         <%= message %> €  
+     </p> 
+     <p>Type de bien :  
+         <%= message5 %>   
+     </p> 
+     <p>Surface du bien : 
+         <%= message2 %> m2  
+     </p> 
+     <p>Nombre de pièces du bien :  
+         <%= message6 %> 
+     </p> 
+     <p>Ville du bien :  
+         <%= message3 %> 
+     </p> 
+     <p>Code postal du bien :  
+         <%= message4 %> 
+     </p> 
+     <p>Prix du m2 :  
+         <%= message7 %> € 
+     </p> 
+     <p>Le prix du m2 en moyenne dans cette ville est de :  
+         <%= message8 %>  € 
+     </p> 
+     <p> 
+         <%= message9 %> 
+     </p> 
+
+    </form>
+</body>
+
+</html>
